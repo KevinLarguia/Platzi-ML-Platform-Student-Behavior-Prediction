@@ -91,7 +91,7 @@ streamlit run app/main.py
 
 ## Próximamente
 
-- Módulo 2: sistema de recomendación de cursos personalizado
+- Módulo 2: sistema de recomendación de cursos personalizado (En progreso)
 - Módulo 3: segmentación de usuarios con clustering
 - Módulo 4: predicción de conversión de gratuito a pago
 - Módulo 5: análisis de engagement con alertas tempranas
