@@ -1,0 +1,84 @@
+course_id,name,school,difficulty,duration_h,popularity,avg_rating,total_students
+CRS-001,Fundamentos de Python,Programacion,Basico,6,0.9,4.4,7035
+CRS-002,Python Intermedio,Programacion,Intermedio,8,0.85,4.1,6612
+CRS-003,Python para Automatizacion,Programacion,Intermedio,10,0.7,4.2,5559
+CRS-004,Algoritmos y Estructuras de Datos,Programacion,Avanzado,12,0.55,4.1,4526
+CRS-005,Programacion Orientada a Objetos,Programacion,Intermedio,8,0.75,4.1,5986
+CRS-006,Terminal y Linea de Comandos,Programacion,Basico,4,0.88,4.3,7082
+CRS-007,Git y GitHub,Programacion,Basico,5,0.92,4.5,7245
+CRS-008,Java SE,Programacion,Intermedio,14,0.6,4.2,4883
+CRS-009,Introduccion a C++,Programacion,Basico,8,0.5,4.2,3865
+CRS-010,Kotlin para Android,Programacion,Avanzado,16,0.4,4.0,3169
+CRS-011,Analisis de Datos con Python,DataSci,Basico,8,0.88,4.2,6444
+CRS-012,Pandas y NumPy,DataSci,Intermedio,10,0.82,4.0,6011
+CRS-013,Visualizacion de Datos,DataSci,Intermedio,8,0.78,4.1,5783
+CRS-014,Machine Learning con Scikit-Learn,DataSci,Intermedio,14,0.8,3.8,6083
+CRS-015,Regresion Lineal con Python,DataSci,Basico,6,0.75,4.0,5452
+CRS-016,Deep Learning con TensorFlow,DataSci,Avanzado,20,0.65,3.8,4782
+CRS-017,NLP con Python,DataSci,Avanzado,12,0.58,3.7,4193
+CRS-018,SQL para Data Science,DataSci,Basico,10,0.85,4.3,6514
+CRS-019,Algebra Lineal para ML,DataSci,Intermedio,8,0.6,4.0,4585
+CRS-020,Estadistica y Probabilidad,DataSci,Basico,10,0.7,4.1,5380
+CRS-021,Power BI para Analisis,DataSci,Basico,8,0.72,4.5,5327
+CRS-022,LLMs y Prompt Engineering,DataSci,Intermedio,6,0.85,4.1,6522
+CRS-023,Desarrollo Web Online,Web,Basico,8,0.9,4.3,8130
+CRS-024,HTML y CSS,Web,Basico,6,0.88,4.1,7909
+CRS-025,JavaScript ES6+,Web,Intermedio,12,0.82,4.0,7404
+CRS-026,React.js,Web,Intermedio,14,0.78,4.1,7204
+CRS-027,Vue.js,Web,Intermedio,12,0.6,3.9,5576
+CRS-028,Node.js,Web,Intermedio,10,0.68,4.2,6202
+CRS-029,TypeScript,Web,Intermedio,8,0.65,4.0,5770
+CRS-030,FastAPI con Python,Web,Intermedio,8,0.7,4.1,6215
+CRS-031,Bases de Datos con PostgreSQL,Web,Intermedio,10,0.72,4.0,6512
+CRS-032,Next.js,Web,Avanzado,14,0.62,4.2,5638
+CRS-033,Ingles Basico A1,Ingles,Basico,10,0.72,4.3,3758
+CRS-034,Ingles Intermedio B1,Ingles,Intermedio,12,0.68,3.9,3397
+CRS-035,Ingles Avanzado B2-C1,Ingles,Avanzado,14,0.55,4.0,2686
+CRS-036,Ingles para Negocios,Ingles,Intermedio,8,0.6,3.9,3117
+CRS-037,Pronunciacion del Ingles,Ingles,Basico,6,0.65,4.3,3214
+CRS-038,Marketing Digital,Marketing,Basico,8,0.82,4.0,3304
+CRS-039,SEO y Posicionamiento Web,Marketing,Intermedio,10,0.72,3.9,2986
+CRS-040,Google Ads,Marketing,Intermedio,8,0.68,4.1,2753
+CRS-041,Social Media Marketing,Marketing,Basico,6,0.78,4.4,3091
+CRS-042,Email Marketing y Automatizacion,Marketing,Intermedio,8,0.65,4.1,2551
+CRS-043,Growth Hacking para Startups,Marketing,Avanzado,10,0.58,3.9,2434
+CRS-044,Fundamentos de Diseno,Diseno,Basico,8,0.8,4.3,2973
+CRS-045,Diseno de Interfaces con Figma,Diseno,Intermedio,12,0.75,3.9,2584
+CRS-046,UX Research,Diseno,Intermedio,10,0.65,4.0,2170
+CRS-047,Illustrator CC,Diseno,Intermedio,10,0.6,4.0,2132
+CRS-048,Fotografia y Edicion,Diseno,Basico,8,0.68,4.5,2359
+CRS-049,Motion Design con After Effects,Diseno,Avanzado,16,0.48,4.0,1592
+CRS-050,Gestion Proyectos Agile y Scrum,Gestion,Basico,8,0.82,4.0,2577
+CRS-051,Liderazgo de Equipos,Gestion,Intermedio,8,0.75,4.1,2101
+CRS-052,OKRs para Empresas,Gestion,Intermedio,6,0.68,4.0,2107
+CRS-053,Product Management,Gestion,Avanzado,12,0.65,3.8,2044
+CRS-054,Negociacion y Conflictos,Gestion,Intermedio,6,0.7,4.2,2285
+CRS-055,Oratoria y Comunicacion Efectiva,SoftSkills,Basico,6,0.78,4.5,2136
+CRS-056,Escritura Online,SoftSkills,Basico,4,0.72,4.4,1712
+CRS-057,Productividad Personal,SoftSkills,Basico,4,0.8,4.2,1900
+CRS-058,Marca Personal,SoftSkills,Basico,6,0.75,4.3,1787
+CRS-059,AWS Cloud Practitioner,Cloud,Basico,10,0.8,4.3,1480
+CRS-060,AWS Solutions Architect,Cloud,Avanzado,20,0.6,4.0,1186
+CRS-061,Docker y Contenedores,Cloud,Intermedio,8,0.72,4.0,1352
+CRS-062,Kubernetes,Cloud,Avanzado,14,0.55,3.9,901
+CRS-063,Google Cloud Fundamentals,Cloud,Basico,8,0.68,4.1,1289
+CRS-064,Fundamentos de Ciberseguridad,Ciberseguridad,Basico,8,0.78,4.1,1189
+CRS-065,Ethical Hacking,Ciberseguridad,Avanzado,18,0.62,4.0,783
+CRS-066,Redes y Protocolos,Ciberseguridad,Intermedio,10,0.65,4.3,1117
+CRS-067,OWASP Top 10,Ciberseguridad,Avanzado,12,0.58,3.9,892
+CRS-068,E-commerce con Shopify,Ecommerce,Basico,8,0.72,4.5,888
+CRS-069,Estrategia de E-commerce,Ecommerce,Intermedio,8,0.65,4.2,964
+CRS-070,Ventas por Internet,Ecommerce,Basico,6,0.68,4.2,741
+CRS-071,Unity para Videojuegos,Videojuegos,Intermedio,16,0.58,4.2,509
+CRS-072,C# para Videojuegos,Videojuegos,Intermedio,12,0.55,4.3,402
+CRS-073,Diseno de Niveles,Videojuegos,Basico,8,0.62,4.3,591
+CRS-074,Inversiones para Principiantes,Finanzas,Basico,8,0.75,4.5,1367
+CRS-075,Finanzas Personales,Finanzas,Basico,6,0.8,3.9,1399
+CRS-076,Criptomonedas y Blockchain,Finanzas,Intermedio,8,0.68,4.2,1221
+CRS-077,Produccion con Adobe Premiere,Audiovisual,Intermedio,12,0.65,4.1,566
+CRS-078,Fotografia Profesional,Audiovisual,Basico,8,0.7,4.3,683
+CRS-079,Calculo para Data Science,Matematicas,Intermedio,10,0.6,4.1,542
+CRS-080,Fundamentos de Matematicas,Matematicas,Basico,8,0.65,4.0,568
+CRS-081,Django REST Framework,Web,Avanzado,16,0.58,3.9,5142
+CRS-082,Tableau para Analisis de Datos,DataSci,Basico,8,0.67,4.4,5225
+CRS-083,Flutter y Dart,Programacion,Intermedio,14,0.52,4.3,4214

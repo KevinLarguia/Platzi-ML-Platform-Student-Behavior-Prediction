@@ -14,7 +14,7 @@ Una plataforma visual hecha con **Streamlit** que permita usar los modelos de ML
 | # | Módulo | Objetivo | Estado |
 |---|--------|----------|--------|
 | 1 | Churn Prediction | Detectar estudiantes que van a cancelar | ✅ Completo |
-| 2 | Course Recommender | Sugerir cursos personalizados | 🔲 Pendiente |
+| 2 | Course Recommender | Sugerir cursos personalizados | ✅ Completo |
 | 3 | User Segmentation | Clustering de perfiles de estudiantes | 🔲 Pendiente |
 | 4 | Conversion Prediction | Leads con alta probabilidad de pagar | 🔲 Pendiente |
 | 5 | Engagement Analysis | Patrones de actividad y riesgo de abandono | 🔲 Pendiente |
@@ -40,7 +40,7 @@ ProyectoMLClientes/
 ├── .gitignore
 ├── venv/                        ← no se sube a git
 ├── data/
-│   ├── raw/                     ← no se sube a git (datos sensibles)
+│   ├── raw/                     ← se sube a git (necesario para probar el modelo)
 │   │   └── platzi_churn.csv     ← 5,000 estudiantes × 58 columnas
 │   └── processed/
 ├── notebooks/
@@ -83,7 +83,7 @@ ProyectoMLClientes/
 | Usar Streamlit para la UI | Solo Python, rápido de construir, visual profesional |
 | Empezar por Churn | Es el más impactante y establece el pipeline base |
 | No subir generate_data.py | El proyecto se presenta con datos reales |
-| No subir data/raw/ | Datos sensibles de estudiantes |
+| Subir data/raw/ | El CSV se sube para que el modelo se pueda probar |
 | Dashboard batch (no formulario manual) | Más realista: predice sobre toda la base, no de a uno |
 | Random Forest con class_weight='balanced' | Compensa el desbalance 3:1 sin modificar los datos |
 
@@ -134,14 +134,30 @@ streamlit run app/main.py
 - [x] Notebook 02 — Modelo completo (Random Forest, métricas, feature importance)
 - [x] Plataforma Streamlit — main.py + dashboard de Churn funcional
 - [x] Git push al repositorio
+- [x] data/raw/ habilitado para subir a git (necesario para probar el modelo)
+- [x] Dashboard Streamlit rediseñado: predicción batch sobre toda la base, no formulario manual
 
 ---
 
-## Próximos pasos — Sesión 3
+### Sesión 3 — 2026-05-19
 
-1. Correr los notebooks 01 y 02 para verificar que todo funciona end-to-end
-2. Arrancar **Módulo 2: Course Recommender**
-   - Generar dataset de interacciones (student_id × course_id × progreso)
-   - EDA de patrones de consumo de cursos
-   - Modelo: filtrado colaborativo o content-based filtering
-   - Dashboard Streamlit: dado un estudiante, mostrar sus cursos recomendados
+- [x] Módulo 2: Course Recommender completo
+  - [x] `src/recommender/generate_data.py` — 80 cursos × 45,593 interacciones
+  - [x] `data/raw/platzi_courses.csv` — catálogo con school, difficulty, rating, etc.
+  - [x] `data/raw/platzi_interactions.csv` — 5,000 estudiantes × 9 cursos promedio
+  - [x] `notebooks/03_recommender_eda.ipynb` — EDA completo (7 gráficos)
+  - [x] `notebooks/04_recommender_modelo.ipynb` — SVD (k=20 factores latentes)
+  - [x] `models/recommender_top10.csv` — recomendaciones precomputadas
+  - [x] `models/recommender_model.pkl` — artefactos del modelo
+  - [x] `app/pages/02_Recommender.py` — dashboard con filtros y gráficos
+
+---
+
+## Próximos pasos — Sesión 4
+
+1. Correr `notebooks/03_recommender_eda.ipynb` → genera gráficos en reports/
+2. Correr `notebooks/04_recommender_modelo.ipynb` → genera modelos en models/
+3. Arrancar **Módulo 3: User Segmentation** (clustering de perfiles)
+   - Algoritmo: K-Means + PCA para visualización
+   - Dataset: usar platzi_churn.csv (ya existente)
+   - Dashboard: mapa de segmentos con características de cada cluster
