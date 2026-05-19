@@ -18,6 +18,8 @@ Plataforma de Machine Learning aplicada a una empresa edtech real.
 ---
 
 ## Módulo 1 — Churn Prediction
+<img width="1916" height="946" alt="image" src="https://github.com/user-attachments/assets/518bfe06-62ab-40aa-ad89-414d9f5108f7" />
+
 
 ### El problema
 
@@ -69,6 +71,7 @@ Algoritmo: Random Forest (200 árboles, class_weight='balanced')
 ---
 
 ## Módulo 2 — Course Recommender
+<img width="1915" height="946" alt="image" src="https://github.com/user-attachments/assets/35538365-56d2-4174-a7b2-00060b63af38" />
 
 ### El problema
 
