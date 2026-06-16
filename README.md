@@ -3,7 +3,7 @@
 Plataforma de Machine Learning aplicada a una empresa edtech real.  
 5 módulos que resuelven problemas de negocio concretos sobre el comportamiento de estudiantes.
 
----
+----
 
 ## Módulos
 
@@ -15,7 +15,7 @@ Plataforma de Machine Learning aplicada a una empresa edtech real.
 | 4 | Conversion Prediction | Identifica usuarios gratuitos con alta probabilidad de pagar | 🔲 Pendiente |
 | 5 | Engagement Analysis | Detecta caídas de actividad antes de que se conviertan en churn | 🔲 Pendiente |
 
----
+----
 
 ## Módulo 1 — Churn Prediction
 <img width="1916" height="946" alt="image" src="https://github.com/user-attachments/assets/518bfe06-62ab-40aa-ad89-414d9f5108f7" />
